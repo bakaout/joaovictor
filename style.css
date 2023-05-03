@@ -1,0 +1,57 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+:root{
+    --cor1: white
+}
+header{
+    display: grid;
+    grid-template-rows: 30px 96px;
+    color:var(--cor1);
+    background-color: rgb(76, 0, 255);
+}
+header #escrevendo1{
+    margin: 0px;
+    display: grid;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+header #escrevendo2{
+    margin: 0px;
+    display: grid;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    gap: 10px;
+}
+nav ul li{
+    padding: 10px;
+}
+nav ul li:hover{
+    background-color: rgba(126, 81, 232, 0.666);
+    border-radius: 3px;
+}
+nav ul a{
+    text-decoration: none;
+    color: var(--cor1);
+    font-size: 1.3rem;
+    
+}
+#figeu{
+    width: 600px;
+}
+#eu{
+    width: 100%;
+}
+section#sobre{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+}
