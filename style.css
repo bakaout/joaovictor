@@ -5,13 +5,14 @@ body{
     color: white;
 }
 :root{
-    --cor1: white
+    --cor1: white;
+    --cinzinha: #403e46;
 }
 header{
     display: grid;
     grid-template-rows: 30px 96px;
     color:var(--cor1);
-    background-color: rgb(76, 0, 255);
+    background-color:var(--cinzinha);
 }
 header #escrevendo1{
     margin: 0px;
@@ -44,14 +45,58 @@ nav ul a{
     font-size: 1.3rem;
     
 }
+main{
+    margin: 20px;
+}
+
+#img-article{
+}
 #figeu{
-    width: 600px;
+    margin: 0px;
+    padding: 0px;
 }
 #eu{
+    padding: 0px;
     width: 100%;
+    margin: 0px;
 }
 section#sobre{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 2fr 1.5fr;
     grid-template-rows: 1fr;
+}
+#texto-sobre{
+    background-color: var(--cinzinha);
+    padding: 10px;
+    margin-right: 10px;
+}
+section#skills{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--cinzinha);
+    margin-top: 10px;
+}
+section#skills article h3{
+    text-align: center;
+}
+section#redes{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 10% 90%;
+    background-color: var(--cinzinha);
+    margin-top: 10px;
+    text-align: center;
+}
+#figredes{
+    
+}
+#figredes img{
+    width: 200px;
+}
+footer{
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--cinzinha);
 }
