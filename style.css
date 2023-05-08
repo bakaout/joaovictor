@@ -100,6 +100,7 @@ main{
 }
 span{
     color: var(--verdao);
+    font-family: 'poppins';
 }
 #texto-sobre p{
     padding: 20px 5px;
@@ -139,13 +140,21 @@ section#skills article ul{
 section#redes{
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 30% 50%;
     background-color: var(--cinzinha);
     margin-top: 10px;
     text-align: center;
 }
+#redes q{
+    font-family: 'poppins';
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
 #figredes img{
-    width: 200px;
+    width: 100px;
+    padding: 10px;
 }
 footer{
     margin-top: 10px;
