@@ -153,12 +153,17 @@ section#redes{
 }
 
 #figredes img{
+<<<<<<< HEAD
     width: 70px;
     padding: 10px;
     transition: transform .5s ease;
 }
 #figredes img:hover{
     transform: scale(1.07);
+=======
+    width: 100px;
+    padding: 10px;
+>>>>>>> 750a07a738232c2c68b2656090ec5df0b5d00b7a
 }
 footer{
     margin-top: 10px;
