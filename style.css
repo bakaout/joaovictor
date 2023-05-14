@@ -106,7 +106,7 @@ section#skills article li{
 }
 
 section#skills article ul{
-    list-style-image: url('/diversos/disco.png');
+    list-style-image: url('./diversos/disco.png');
 }
 section#redes{
     display: grid;
