@@ -21,7 +21,6 @@ body{
     --verdinho: #00BB10;
 }
 header{
-    padding: 10px;
     position: fixed;
     top: 0px;
     left: 0px;
@@ -58,10 +57,10 @@ main{
     margin: auto;
     margin-top: 0px;
 }
-
-div#interact h1{
-    padding: 10px;
+#interact h1{
+    padding: 0px 10px 0px 10px;
 }
+
 div#interact{
     margin: 142px 0px 70px 0px;
     display: flex;
@@ -133,13 +132,14 @@ section#redes{
     transform: scale(1.07);
 }
 footer{
+    width: 100%;
     margin-top: 10px;
     display: flex;
     height: 50px;
     justify-content: center;
     text-align: center;
-    background-color: var(--cinzinha);
 }
+
 
 @media(max-width: 690px){
     nav ul li{
@@ -158,5 +158,10 @@ footer{
     div#interact h1{
         font-size: 1.0rem;
         padding: 10px;
+    }
+    div#interact{
+        margin: 93px 0px 30px 0px;
+        display: flex;
+        justify-content: center;
     }
 }
