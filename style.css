@@ -107,6 +107,9 @@ section#skills article li{
 section#skills article ul{
     list-style-image: url('./diversos/disco.png');
 }
+#projetos #projetoteste{
+    border: 1px solid red;
+}
 section#redes{
     display: grid;
     grid-template-columns: 1fr;
