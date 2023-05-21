@@ -57,6 +57,15 @@ main{
     margin: auto;
     margin-top: 0px;
 }
+main#contato{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+main#contato img{
+    margin-top: 300px;
+    width: 300px;
+}
 #interact h1{
     padding: 0px 10px 0px 10px;
 }
@@ -71,7 +80,7 @@ div#interact{
     margin-left: 10px;
     border-bottom: 1px solid var(--verdinho);
 }
-span{
+span#letra{
     color: var(--verdao);
     font-family: 'poppins';
 }
@@ -110,25 +119,72 @@ section#skills article ul{
 #projetos{
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
+}
+#projetos div{
+    margin: 10px 0px 10px 0px;
 }
 #projetos img{
     width: 400px;
     height: 250px;
-    border: 1px solid red;
     display: block;
     margin: auto;
 }
+#projetos span#barra{
+    content: "";
+    background-color: var(--verdao);
+    width: 120px;
+    height: 6px;
+    display: block;
+    border-radius: 10px;
+    font-family: 'poppins';
+}
+#projetos h1{
+    font-family: 'dmsans';
+}
+#projetos p{
+    font-size: 1rem;
+    font-family: 'poppins';
+    max-width: 500px;
+}
+#projetos p a{
+    font-size: 1.1rem;
+    font-family: 'poppins';
+    text-decoration: none;
+    color: #00700B;
+    
+}
+#projetos p a:hover{
+    text-decoration: underline;
+}
 #projetos #left{
-    display: flex;
+    text-align: left;
     align-self: flex-start;
-    border: 1px solid red;
     
 }
 #projetos #right{
+    text-align: right;
     align-self: flex-end;
-    border: 1px solid red;
-    
 }
+
+h3{
+    color: #00BB10;
+}
+#projetos #left #links, #projetos #right #links{
+    display: flex;
+    justify-content: space-around;
+}
+#projetos #links a{
+    text-decoration: none;
+    color: var(--verdao);
+    background-color: var(--cinzinha);
+    padding: 10px;
+    border-radius: 3px;
+}
+#projetos #links a:hover{
+    text-decoration: underline;
+}
+
 section#redes{
     display: grid;
     grid-template-columns: 1fr;

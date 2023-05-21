@@ -14,22 +14,22 @@
       <nav>
         <ul type="none">
           <li><a href="#home">Home</a></li>
-          <li><a href="#Certificados">Loading</a></li>
-          <li><a href="#">Projetos</a></li>
-          <li><a href="/joaovictor/contato.html">Contatos</a></li>
+          <li><a href="#certificados">Loading</a></li>
+          <li><a href="#proj">Projetos</a></li>
+          <li><a href="./contato.html">Contatos</a></li>
         </ul>
       </nav>
     </header>
   
     <main id="home">
         <div id="interact">
-            <h1 id="escrevendo2"><span>&ltJoão Victor</span></h1>
+            <h1 id="escrevendo2"><span id="letra">&ltJoão Victor</span></h1>
             <h1 id="escrevendo1">Front-end developer </h1>
             <h1><span>/&gt</span></h1>
         </div>
         <section id="sobre">
             <article id="texto-sobre">
-                <h2>Prazer, me chamo  <span>João Victor!</span></h2>
+                <h2>Prazer, me chamo  <span id="letra">João Victor!</span></h2>
                 <p>
                     Sou estudante de programação front-end, no passado ja cursei um ano de Análise e desenvolvimento de sistemas mas
                     infelizmente tive que parar. Porém estava motivado, continuei estudando e em 2023 comecei o mesmo curso na
@@ -43,7 +43,7 @@
 
         <section id="skills">
             <article>
-                <h3><span>Soft</span> skills</h3>
+                <h3><span id="letra">Soft</span> skills</h3>
                 <ul type="disc">
                     <li>Inteligência emocional</li>
                     <li>Organização</li>
@@ -53,7 +53,7 @@
                 </ul>
             </article>
             <article>
-                <h3><span>Hard</span> skills</h3>
+                <h3><span id="letra">Hard</span> skills</h3>
                 <ul type="disc">
                     <li>HTML & CSS</li>
                     <li>SEO</li>
@@ -63,48 +63,62 @@
                 </ul>
             </article>
         </section>
-
+        <span id="proj"></span>
         <section id="projetos">
+            
+            <h2>Principais<span id="letra"> projetos</span></h2>
+            <span id="barra"></span>
+            <p>Projetos pessoais realizados com JavaScript, HTML e CSS. (Para mais projetos acessar o <a target="_blank" href="https://github.com/bakaout">github</a>)</p>
+            
             <div id="left">
                 <figure>
-                    <img src="http://lorempixel.com.br/500/400/?1" alt="">
-                    <h1>Calculadora</h1>
+                    <img src="/diversos/calculator.png" alt="">
+                    <h3>Calculadora</h3>
                     <p>Esse projeto contém uma calculadora feita em js, html e css.</p>
+                    <div id="links">
+                        <a href="https://github.com/bakaout/Calculator.git" target="_blank">Repositório</a>
+                        <a href="https://bakaout.github.io/Calculator/" target="_blank">Página</a>
+                    </div>
+                </figure>
+            </div>
+            <div id="right">
+                <figure>
+                    <img src="/diversos/ping-pong.png" alt="">
+                    <h3>Ping Pong</h3>
+                    <p>Esse projeto contém um ping pong feito em js, html e css.</p>
+                    <div id="links">
+                        <a href="https://github.com/bakaout/Calculator.git" target="_blank">Repositório</a>
+                        <a href="https://bakaout.github.io/Calculator/" target="_blank">Página</a>
+                    </div>
+                </figure>
 
+            </div>
+            <div id="left">
+                <figure>
+                    <img src="/diversos/pagLact.png" alt="">
+                    <h3>Página Láctario</h3>
+                    <p>Esse projeto contém uma página informativa sobre o setor do láctario, com videos, imagens e índices sobre a área.</p>
+                    <div id="links">
+                        <a href="https://github.com/bakaout/Calculator.git" target="_blank">Repositório</a>
+                        <a href="https://bakaout.github.io/Calculator/" target="_blank">Página</a>
+                    </div>
                 </figure>
             </div>
             <div id="right">
                 <figure>
-                    <img src="http://lorempixel.com.br/500/400/?1" alt="">
-                    <h1>Ping Pong</h1>
+                    <img src="/diversos/pagLuffy.png" alt="">
+                    <h3>Página Luffy</h3>
                     <p>Esse projeto contém uma calculadora feita em js, html e css.</p>
-                </figure>
-            </div>
-            <div id="left">
-                <figure>
-                    <img src="http://lorempixel.com.br/500/400/?1" alt="">
-                    <h1>Ping Pong</h1>
-                    <p>Esse projeto contém uma calculadora feita em js, html e css.</p>
-                </figure>
-            </div>
-            <div id="right">
-                <figure>
-                    <img src="http://lorempixel.com.br/500/400/?1" alt="">
-                    <h1>Ping Pong</h1>
-                    <p>Esse projeto contém uma calculadora feita em js, html e css.</p>
-                </figure>
-            </div>
-            <div id="left">
-                <figure>
-                    <img src="http://lorempixel.com.br/500/400/?1" alt="">
-                    <h1>Ping Pong</h1>
-                    <p>Esse projeto contém uma calculadora feita em js, html e css.</p>
+                    <div id="links">
+                        <a href="https://github.com/bakaout/Calculator.git" target="_blank">Repositório</a>
+                        <a href="https://bakaout.github.io/Calculator/" target="_blank">Página</a>
+                    </div>
                 </figure>
             </div>
         </section>
 
         <section id="redes">
-            <p><q> <span>Nunca </span>desista da vida que <span>sempre </span>sonhou viver. </q></p>
+            <p><q> <span id="letra">Nunca </span>desista da vida que <span id="letra">sempre </span>sonhou viver. </q></p>
             <article>
                 <figure id="figredes">
                     <a href="https://github.com/bakaout" target="_blank">
@@ -121,7 +135,7 @@
     </main>
 
     <footer>
-        <p><span> Copyright &copy</span> • 2023 • <span> João </span>Victor</p>
+        <p><span id="letra"> Copyright &copy</span> • 2023 • <span id="letra"> João </span>Victor</p>
     </footer>
     <script src="script.js"></script>
   </body>
