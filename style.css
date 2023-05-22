@@ -63,12 +63,29 @@ main#contato{
     justify-content: center;
 }
 main#contato img{
-    margin-top: 300px;
-    width: 300px;
+    margin: 200px 20px 0px 20px;
+    width: 100px;
+    padding: 20px;
+    
 }
 #interact h1{
-    padding: 0px 10px 0px 10px;
+    padding: 0px 7px 0px 7px;
 }
+#interact #final::after{/*depois que o h1 começar a aparecer, a pseudoclasse é ativada*/
+    content: '|';
+    opacity: 1;
+    margin-left: 5px;
+    animation: pisca .5s infinite;/*chama a função pisca a cada 5s infinitamente*/
+}
+@keyframes pisca {
+    from {
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
 
 div#interact{
     margin: 142px 0px 70px 0px;
@@ -107,6 +124,7 @@ section#skills{
 }
 section#skills article h3{
     text-align: center;
+    color: white;
 }
 section#skills article li{
     font-family: 'poppins';
@@ -250,19 +268,13 @@ footer{
     #projetos img{
         width: 200px;
         height: 150px;
-        border: 1px solid red;
         display: block;
         margin: auto;
     }
     #projetos #left{
         display: block;
-        
-        border: 1px solid red;
-        
     }
     #projetos #right{
-        
-        border: 1px solid red;
-        
+        display: block;
     }
 }
