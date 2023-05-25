@@ -178,11 +178,13 @@ section#skills article ul{
 #projetos #left{
     text-align: left;
     align-self: flex-start;
+    border-left: 5px groove var(--verdao);
     
 }
 #projetos #right{
     text-align: right;
     align-self: flex-end;
+    border-right: 5px groove var(--verdao);
 }
 
 h3{
