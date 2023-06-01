@@ -204,6 +204,22 @@ h3{
 #projetos #links a:hover{
     text-decoration: underline;
 }
+.zoom-1:hover, .zoom-2:hover, .zoom-3:hover, .zoom-4:hover{
+    transform: scale(1.05);
+    transition: transform .5s ease-in-out;
+    background-color: var(--cinzinha);
+}
+.zoom-1:hover,.zoom-3:hover{
+    -webkit-box-shadow: 9px 10px 5px 0px rgba(0,187,16,0.31);
+    -moz-box-shadow: 9px 10px 5px 0px rgba(0,187,16,0.31);
+    box-shadow: 9px 10px 5px 0px rgba(0,187,16,0.31);
+}
+.zoom-2:hover, .zoom-4:hover{
+    -webkit-box-shadow: -9px 10px 5px 0px rgba(0,187,16,0.31);
+    -moz-box-shadow: -9px 10px 5px 0px rgba(0,187,16,0.31);
+    box-shadow: -9px 10px 5px 0px rgba(0,187,16,0.31);
+} 
+
 
 section#redes{
     display: grid;
