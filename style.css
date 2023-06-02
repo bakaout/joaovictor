@@ -43,7 +43,7 @@ header{
     width: 100%;
     color:var(--cor1);
     background-color: black;
-    
+    z-index: 1;
 }
 nav ul{
     display: flex;
@@ -235,12 +235,24 @@ h3{
     -moz-box-shadow: -9px 10px 5px 0px rgba(0,187,16,0.31);
     box-shadow: -9px 10px 5px 0px rgba(0,187,16,0.31);
 } 
+section h2{
+    text-align: left;
+    text-indent: 20px;
+}
+section#redes #interesse{
+    font-size: 1.05rem;
+    font-family: 'poppins';
+    margin: auto;
+    text-align: left;
+    padding: 10px;
+    line-height: 25px;
+}
+ section#redes p span#letra{
+    font-size: 1.05rem;
+ }
 
 section#redes{
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-rows: 30% 50%;
     background-color: var(--cinzinha);
     margin-top: 10px;
     text-align: center;
@@ -293,7 +305,11 @@ footer{
         display: flex;
         justify-content: center;
     }
-
+    .zoom-1:hover, .zoom-2:hover, .zoom-3:hover, .zoom-4:hover{
+        transform: scale(1.02);
+        transition: transform .5s ease-in-out;
+        background-color: var(--cinzinha);
+    }
     #projetos{
         display: block;
         flex-direction: column;
@@ -306,8 +322,10 @@ footer{
     }
     #projetos #left{
         display: block;
+        margin: 10px;
     }
     #projetos #right{
         display: block;
+        margin: 10px;
     }
 }
